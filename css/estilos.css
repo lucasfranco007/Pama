@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #192535;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.contenedor {
+    padding: 80px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo {
+    color: #f7ce3e;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/*haeder*/
+
+header {
+    width: 100%;
+    height: 670px;
+    background: #192537;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f496, #192537), url(../media/img.jpg.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f494, #192537), url(../media/img.jpg.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav a {
+    color: #f7ce3e;
+    font-weight: 300px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.texto-header h1 {
+    padding: 5px;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.733);
+    padding-top: 5%;
+}
+
+button {
+    padding: 20px 35px;
+    margin: 20px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    font-size: 16px;
+    font-family: 'Chakra Petch', sans-serif;
+    border: 4px solid #ff8b07;
+    color: #fff;
+    cursor: pointer;
+    background: linear-gradient(to right, transparent 50%, #ff8b07 50%);
+    background-size: 200%;
+    background-position: left;
+    transition: background-position 1s;
+
+
+
+}
+
+.texto-header .btn:hover {
+    background-position: right;
+    color: #000;
+    font-weight: 700;
+}
+
+
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/*nosotros*/
+.logo {
+    display: block;
+    margin: auto;
+}
+
+.textoNosotros p {
+    font-size: 20px;
+    color: #fff
+}
+
+.contenedor-nosotros {
+    padding: 20px 0;
+}
+
+.imagen1 {
+    max-width: 100%;
+    height: 550px;
+}
+
+
+
+/*servicios*/
+.servicios {
+    background: #0d1622;
+    margin-bottom: 30px;
+
+}
+
+.contenedor-servicios {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-ind {
+    width: 28%;
+    text-align: center;
+
+}
+
+.contenedor-ind img {
+    width: 90%;
+
+}
+
+.contenedor-ind h3 {
+    margin: 10px;
+    color: #f7ce3e;
+}
+
+.contenedor-ind p {
+    color: #fff;
+    font-weight: 300px;
+    text-align: justify;
+}
+
+/*galeria*/
+
+.galeria {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.galeriaImg {
+    width: 24%;
+    height: 230px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+
+}
+
+.galeriaImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+
+}
+
+.galeriaImg img:hover {
+
+    border: 3px solid #000;
+
+}
+
+
+
+
+
+
+
+/*footer*/
+footer {
+    background: #0d1622;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #f7ce3e;
+}
+
+.contenedor-foo {
+    text-align: center;
+}
+
+.contenedor-foo h4 {
+    color: #f7ce3e
+}
+
+.contenedor-foo p {
+    color: #fff;
+}
+
+.contenedor-icon {
+    display: flex;
+    justify-content: baseline;
+
+
+}
+
+.iconos img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+
+@media screen and (max-width:768px) {
+    header {
+        background-position: center;
+
+    }
+
+
+    .galeriaImg {
+        width: 44%;
+    }
+
+    .contenedor-servicios {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .contenedor-ind {
+        width: 50%;
+        text-align: center;
+
+    }
+
+    .contenedor-ind img {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    nav {
+        text-align: center;
+        padding: 30 0 0 0;
+    }
+
+    nav a {
+        margin-right: 5px;
+    }
+
+    .texto-header {
+        font-size: 35px;
+    }
+
+    .texto-header {
+        font-size: 15px;
+        justify-content: center;
+    }
+
+    .logo {
+        margin-bottom: 60px;
+        width: 99%;
+    }
+
+
+    .galeriaImg {
+        width: 90%;
+    }
+
+
+
+    .contenedor-foo {
+        display: none;
+    }
+
+
+
+}
+
+/*contacto/**/
+.contacto-header{
+    max-width: 100%;
+    height: 100%;
+}
+
+.contenedor-contacto {
+    max-width: 1070px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+
+}
+
+.contenedor-contacto h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.contacto-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contacto-wrapper * {
+    padding: 1em;
+}
+
+.contact-form {
+    background: #192535;
+    color: #fff;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+
+}
+
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1px #f7ce3e solid;
+    color: #fff;
+    
+
+}
+
+.contact-form form button {
+    background: #f7ce3e;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: #f1c217;
+    color: #000;
+    transition: background-color 1s ease-out;
+    outline: 0;
+
+
+}
+
+
+.contact-info {
+    background: #0d1622;
+    color: #fff;
+}
+
+.contact-info h4,
+.contact-info ul,
+.contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+    
+
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li img {
+    padding:0;
+}
+textarea{
+    resize: none;
+}
+ 
+@media(min-width:768px) {
+    body{
+        padding: 0;
+    }
+    .contacto-wrapper{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        padding: 1em;
+        text-align: left;
+    }
+}
