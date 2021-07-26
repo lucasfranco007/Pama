@@ -418,7 +418,18 @@ textarea{
         padding: 0;
     }
     header{
-        background-image: url(../media/imgmob.jpg);
+        width: 100%;
+        height: 670px;
+        background: #192537;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #4286f496, #192537), url(../media/imgmob.jpg);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #4286f494, #192537), url(../media/imgmob.jpg);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+        
     }
     .contacto-wrapper{
         display: grid;
