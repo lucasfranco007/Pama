@@ -417,6 +417,9 @@ textarea{
     body{
         padding: 0;
     }
+    header{
+        background-image: url(../media/imgmob.jpg);
+    }
     .contacto-wrapper{
         display: grid;
         grid-template-columns: 2fr 1fr;
