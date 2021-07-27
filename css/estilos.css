@@ -111,10 +111,11 @@ button {
 }
 
 .contenedor-nosotros {
+
     padding: 20px 0;
 }
 
-.imagen1 {
+.imagen19 {
     max-width: 100%;
     height: 550px;
 }
@@ -308,7 +309,7 @@ footer {
 }
 
 /*contacto/**/
-.contacto-header{
+.contacto-header {
     max-width: 100%;
     height: 100%;
 }
@@ -365,7 +366,7 @@ footer {
     outline: none;
     border-bottom: 1px #f7ce3e solid;
     color: #fff;
-    
+
 
 }
 
@@ -397,7 +398,7 @@ footer {
 .contact-info p {
     text-align: center;
     margin: 0 0 1rem 0;
-    
+
 
 }
 
@@ -407,17 +408,19 @@ footer {
 }
 
 .contact-info ul li img {
-    padding:0;
+    padding: 0;
 }
-textarea{
+
+textarea {
     resize: none;
 }
- 
+
 @media(min-width:768px) {
-    body{
+    body {
         padding: 0;
     }
-    header{
+
+    header {
         width: 100%;
         height: 670px;
         background: #192537;
@@ -429,16 +432,26 @@ textarea{
         background-size: cover;
         background-attachment: fixed;
         position: relative;
-        
+
     }
-    .contacto-wrapper{
+
+    .contacto-wrapper {
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
+
     .contact-info h4,
     .contact-info ul,
     .contact-info p {
         padding: 1em;
         text-align: left;
     }
+}
+
+@media (max-width:768px) {
+    .contenedor-nosotros img {
+        background-image: url(../media/construction-mob.jpg);
+        
+    }
+
 }
