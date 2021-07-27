@@ -108,7 +108,7 @@ button {
 .textoNosotros p {
     font-size: 20px;
     color: #fff;
-    
+
 }
 
 .contenedor-nosotros {
@@ -145,7 +145,7 @@ button {
 }
 
 .contenedor-ind h3 {
-    margin:10px;
+    margin: 10px;
     color: #f7ce3e;
 }
 
@@ -428,8 +428,8 @@ textarea {
         background: linear-gradient(to right, #4286f494, #192537), url(../media/imgmob.jpg);
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         background-size: cover;
-        background-attachment:scroll;
-        position:relative;
+        background-attachment: scroll;
+        position: relative;
 
     }
 
@@ -444,17 +444,18 @@ textarea {
         padding: 1em;
         text-align: left;
     }
-    .contenedor-ind img{
-        width:100%;
+
+    .contenedor-ind img {
+        width: 100%;
         height: 100%;
-        
+
     }
 }
 
 @media (max-width:768px) {
     .contenedor-nosotros img {
         background-image: url(../media/construction-mob.jpg);
-        
+
     }
 
 }
