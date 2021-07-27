@@ -107,7 +107,8 @@ button {
 
 .textoNosotros p {
     font-size: 20px;
-    color: #fff
+    color: #fff;
+    
 }
 
 .contenedor-nosotros {
@@ -115,10 +116,7 @@ button {
     padding: 20px 0;
 }
 
-.imagen19 {
-    max-width: 100%;
-    height: 550px;
-}
+
 
 
 
@@ -147,7 +145,7 @@ button {
 }
 
 .contenedor-ind h3 {
-    margin: 10px;
+    margin:10px;
     color: #f7ce3e;
 }
 
@@ -430,8 +428,8 @@ textarea {
         background: linear-gradient(to right, #4286f494, #192537), url(../media/imgmob.jpg);
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         background-size: cover;
-        background-attachment: fixed;
-        position: relative;
+        background-attachment:scroll;
+        position:relative;
 
     }
 
@@ -445,6 +443,11 @@ textarea {
     .contact-info p {
         padding: 1em;
         text-align: left;
+    }
+    .contenedor-ind img{
+        width:100%;
+        height: 100%;
+        
     }
 }
 
