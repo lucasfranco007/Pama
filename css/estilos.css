@@ -161,6 +161,7 @@ button {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    
 }
 
 .galeriaImg {
@@ -171,23 +172,21 @@ button {
     position: relative;
     cursor: pointer;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    
+   
 
 }
 
 .galeriaImg img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit:cover;
     display: block;
+   
 
 
 }
 
-.galeriaImg img:hover {
-
-    border: 3px solid #000;
-
-}
 
 /*footer*/
 footer {
@@ -230,6 +229,12 @@ footer {
     width: 50px;
     height: 50px;
     margin: 5px;
+}
+/*footer.contactos/**/
+.contenedor-foo img{
+    width: 150px;
+    height: 150px;
+    
 }
 
 
@@ -316,9 +321,12 @@ footer {
 }
 
 .contenedor-contacto h1 {
+    color:#f7ce3e;
     text-align: center;
-    font-size: 3em;
+    font-size: 3em;  
 }
+
+
 
 .contacto-wrapper {
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
@@ -331,6 +339,9 @@ footer {
 .contact-form {
     background: #192535;
     color: #fff;
+}
+.contact-form h3{
+    color:#f7ce3e;
 }
 
 .contact-form form {
@@ -385,6 +396,9 @@ footer {
     background: #0d1622;
     color: #fff;
 }
+.contact-info h4{
+    color:#f7ce3e;
+}
 
 .contact-info h4,
 .contact-info ul,
@@ -401,7 +415,8 @@ footer {
 }
 
 .contact-info ul li img {
-    padding: 0;
+    padding:0;
+    margin: 1px;
 }
 
 textarea {
@@ -418,12 +433,12 @@ textarea {
         height: 670px;
         background: #192537;
         /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #4286f496, #192537), url(../media/imgmob.jpg);
+        background: -webkit-linear-gradient(to right, #4286f496, #192537), url(../media/img.jpg.jpg);
         /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #4286f494, #192537), url(../media/imgmob.jpg);
+        background: linear-gradient(to right, #4286f494, #192537), url(../media/img.jpg.jpg);
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         background-size: cover;
-        background-attachment: scroll;
+        background-attachment:fixed;
         position: relative;
 
     }
@@ -439,21 +454,15 @@ textarea {
         padding: 1em;
         text-align: left;
     }
-}
+  
 
-
- .contenedor-ind{
-     border: 2px solid aqua;
-     
-
-     
+ .galeriaImg:hover {
+     transform: scale(1.15);
  }
+}
+   
 
 @media (max-width:768px) {
-    .contenedor-nosotros img {
-        background-image: url(../media/construction-mob.jpg);
-
-    }
 
     .contenedor-ind {
         width: 90%;
@@ -462,4 +471,8 @@ textarea {
     .contenedor-ind img {
         width: 50%;
     }
+    #foo{
+        display: none;
+    }
+
 }
