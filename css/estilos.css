@@ -33,12 +33,12 @@ header {
     height: 670px;
     background: #192436;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4286f496, #192436), url(../media/img.jpg.jpg);
+    background: -webkit-linear-gradient(to right, #4286f496, #192436), url(../media/imgmed.jpg);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4286f494, #192436), url(../media/img.jpg.jpg);
+    background: linear-gradient(to right, #4286f494, #192436), url(../media/imgmed.jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment:fixed;
     position: relative;
 }
 
@@ -436,13 +436,18 @@ textarea {
         height: 670px;
         background: #192436;
         /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #4286f496, #192436), url(../media/img.jpg.jpg);
+        background: -webkit-linear-gradient(to right, #4286f496, #192436), url(../media/imgmed.jpg);
         /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #4286f494, #192436), url(../media/img.jpg.jpg);
+        background: linear-gradient(to right, #4286f494, #192436), url(../media/imgmed.jpg);
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        background-size: cover;
-        background-attachment: fixed;
-        position: relative;
+        background-size:auto;
+        background-attachment:fixed;
+        position:relative;
+        
+        
+        
+       
+        
 
     }
 
@@ -466,6 +471,25 @@ textarea {
     .galeriaImg:hover {
         transform: scale(1.15);
     }
+}
+
+@media (min-width: 1200px){
+    header{
+        width: 100%;
+        height: 670px;
+        background: #192436;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #4286f496, #192436), url(../media/img.jpg.jpg);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #4286f494, #192436), url(../media/img.jpg.jpg);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-size: cover;
+        background-attachment:fixed;
+        position:relative;
+        
+        
+    }
+    
 }
 
 
